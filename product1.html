@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Product Detail - Lin du Nord</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <script 
+    src="https://www.paypal.com/sdk/js?client-id=BAAGgYMnJ47QiGM9A47gtRPuRzzHP_jBxOdcqg_XRxMewVMGbClb_WgFPvuVku8PbgWH6eRsLH3jRnWDts&components=hosted-buttons&disable-funding=venmo&currency=CAD">
+  </script>
+</head>
+<body class="is-preload">
+
+  <!-- Sticky Header -->
+  <header id="top-banner" style="position: fixed; top: 0; left: 0; right: 0; background: white; z-index: 9999; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; height: 70px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <div style="display: flex; align-items: center; gap: 50px;">
+      <a href="index.html" style="text-decoration: none; border-bottom: none;"><img src="images/logo.png" alt="Lin du Nord" style="height: 80px; margin-top: 20px;"></a>
+      <h2 style="margin: 0; font-size: 1.2em;">Online Boutique En Ligne</h2>
+    </div>
+    <div>
+      <a href="index.html" class="button small">Home | Accueil</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div id="wrapper" style="padding-top: 90px;">
+    <section>
+      <header>
+        <h2>Products <br>
+          Unprimed Linen Canvas <br>
+          European Grown Flax <br><br>
+          Open image in new tab <br>
+          to see the details <br><br>
+          Was: <s>CAD $39.99</s><br>
+          Now: CAD $29.99<br>
+          per 50 cm unit
+        </h2>
+        <br>
+        <h2>Produits <br>
+          Toile de lin non apprêtée <br>
+          Lin cultivé en Europe <br><br>
+          Ouvrir l'image dans un nouvel onglet pour voir les détails<br><br>
+          Avant: <s>CAD $39.99</s><br>
+          Maintenant: <br> CAD $29.99<br>
+          par unité de 50 cm
+        </h2>
+      </header>
+      <div class="content">
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+          <img src="images/product1a.jpg" alt="Linen Canvas Front" style="width: 100%; max-width: 300px; border: 1px solid #ccc;" />
+          <img src="images/product1b.jpg" alt="Linen Canvas Closeup" style="width: 100%; max-width: 300px; border: 1px solid #ccc;" />
+          <img src="images/product1c.jpg" alt="Linen Canvas Folded" style="width: 100%; max-width: 300px; border: 1px solid #ccc;" />
+          <img src="images/product1d.jpg" alt="Linen Canvas Folded" style="width: 100%; max-width: 300px; border: 1px solid #ccc;" />
+        </div>
+
+        <p style="margin-top: 20px;">
+          Material: 100% linen <br>
+          Width: 168cm<br>
+          Length: 50 cm (Sold in 50 cm units – custom lengths available)<br>
+          Texture: Fine to Medium Weave<br><br>
+          This unprimed 100% linen canvas is made from European-grown flax, offering a natural, breathable surface ideal for professional artists and creators. Its lightweight, fine-to-medium portrait texture provides excellent tooth for both oil and acrylic painting. Each roll is carefully selected and prepared in Canada.
+        </p>
+
+        <div id="paypal-container-XBDTHLA778WEC"></div>
+        <script>
+          paypal.HostedButtons({
+            hostedButtonId: "XBDTHLA778WEC",
+          }).render("#paypal-container-XBDTHLA778WEC")
+        </script>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="margin-top: 40px; text-align: center; font-size: 0.9em; color: #777;">
+      &copy; Lin du Nord. All rights reserved.
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

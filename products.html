@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Products - Lin du Nord</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <style>
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 100px 2rem 2rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+    .product-card h3 {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .product-card p {
+      margin: 0.5rem 0;
+    }
+    .product-card .button {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body class="is-preload">
+
+<!-- Sticky Header -->
+<header id="top-banner" style="position: fixed; top: 0; left: 0; right: 0; background: white; z-index: 9999; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; height: 70px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  <div style="display: flex; align-items: center; gap: 50px;">
+    <a href="index.html" style="text-decoration: none; border-bottom: none;"><img src="images/logo.png" alt="Lin du Nord" style="height: 80px; margin-top: 20px;"></a>
+    <h2 style="margin: 0; font-size: 1.2em;">Online Boutique En Ligne</h2>
+  </div>
+  <div>
+    <a href="index.html" class="button small">Home | Accueil</a>
+  </div>
+</header>
+
+<!-- Product Grid -->
+<div class="product-grid">
+  <!-- Product 1 -->
+  <div class="product-card">
+    <img src="images/product1b.jpg" alt="Linen Canvas 1">
+    <h3>Unprimed Linen Canvas | Toile de lin non apprêtée</h3>
+    <p>100% Linen | 100% Lin</p>
+    <p>Fine-Medium Texture <br>Texture Fine-moyenne</p>
+    <!-- <p><strong>Now: $29.99</strong></p> -->
+    <a href="product1.html" class="button small">Details | Détails</a>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card">
+    <img src="images/pic01.jpg" alt="Coming Soon">
+    <h3>Coming Soon | À venir</h3>
+    <p>Another linen canvas <br> Une autre toile de lin</p>
+    <p><strong>Available soon <br> Bientôt disponible</strong></p>
+    <a href="#" class="button small disabled">Preview</a>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card">
+    <img src="images/pic01.jpg" alt="Coming Soon">
+    <h3>Coming Soon | À venir</h3>
+    <p>Another linen canvas | Une autre toile de lin</p>
+    <p><strong>Available soon | Bientôt disponible</strong></p>
+    <a href="#" class="button small disabled">Preview</a>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product-card">
+    <img src="images/pic01.jpg" alt="Coming Soon">
+    <h3>Coming Soon | À venir</h3>
+    <p>Another linen canvas | Une autre toile de lin</p>
+    <p><strong>Available soon | Bientôt disponible</strong></p>
+    <a href="#" class="button small disabled">Preview</a>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
